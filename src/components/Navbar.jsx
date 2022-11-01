@@ -23,7 +23,7 @@ const Navbar = () => {
        <div onClick={handleNav} className="block lg:hidden">
           {!nav  ? <AiOutlineMenu size={20}/> : <AiOutlineClose  size={20} /> }
        </div>
-       <div  className={`fixed left-0 top-0 w-[40%] bg-[rgb(187, 247, 253)] border-r border-r-aquamarine bg-[rgb(106, 239, 251)] h-full ease-in-out duration-300 
+       <div  className={`fixed left-0 top-0 w-[40%] bg-[white] border-r border-r-aquamarine  h-full ease-in-out duration-300 
         ${
     nav ? "translate-x-0 " : "translate-x-[-100%]"
         }`}>
