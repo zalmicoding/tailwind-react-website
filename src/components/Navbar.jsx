@@ -8,7 +8,7 @@ const Navbar = () => {
           setNAv(!nav)
     }
    return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black'> 
+    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4  text-black'> 
       <h1 className='w-full text-3xl font-bold text-[#000000]'> {!nav  ? "Logo" : "" }</h1>
 
       <ul className='hidden lg:flex'>
