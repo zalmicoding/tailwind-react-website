@@ -3,17 +3,17 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className='text-[#000000] bg-[#ece4e4] h-[34rem]'>
+    <div className='text-[#000000] bg-[#fee0e0] h-[34rem]'>
         <div className="max-w-800px mt-[-140px] w-full h-screen mx-auto text-center flex flex-col   justify-center">
-            <p className='lg:text-5xl sm:text-4xl text:xl font-bold  p-2'>software company</p>
+            <p className='lg:text-3xl sm:text-4xl text:xl font-bold  p-2'>software company</p>
 
-            <h6 className='text-[#f7b045] lg:text-7xl sm:text-6xl text:2xl font-bold md:py-6'>phi horizon</h6>
+            <h6 className='text-[#b2c08d] lg:text-4xl sm:text-6xl text:2xl font-bold md:py-6'>phi horizon</h6>
 
             <div className='flex justify-center items-center'>
 
-               <p className='lg:text-5xl sm:text-4xl text:xl font-bold'>Fast , flexible financing for</p>
+               <p className='lg:text-3xl sm:text-4xl text:xl font-bold'>Fast , flexible financing for</p>
                <Typed
-                    className=' lg:text-5xl sm:text-4xl text:xl font-bold pl-2'    
+                    className=' lg:text-3xl sm:text-4xl text-[#b2c08d] text:xl font-bold pl-2'    
                     strings={['website','apps','wordpress','hosting']}
 
                     typeSpeed={120} 
